@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Es.EventStore.Marten\Es.EventStore.Marten.csproj" />
+    <ProjectReference Include="..\Session07.Es.CM.ApplicationServices\Session07.Es.CM.ApplicationServices.csproj" />
+    <ProjectReference Include="..\Session07.Es.CM.Infra.Data.Commands\Session07.Es.CM.Infra.Data.Commands.csproj" />
+  </ItemGroup>
+
+
+</Project>
